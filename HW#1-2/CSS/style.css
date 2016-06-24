@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #EFEFEF;
+	font-size: 18px;
+}
+
+.mainblock {
+	width: 420px;	
+	margin: 0 auto;
+	background: white;
+	padding: 0 50px 50px;
+	box-shadow: 0px 0px 7px 0px #808080;
+}
+	
+.line{
+	margin-top: 20px;
+	border-bottom: 1px solid black;
+	}
+
+.myphoto {
+	text-align: center;
+}	
+	
+h3 {
+	padding-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+ul {
+	padding-left: 30px;
+	margin-top: 20px;
+}
+
+p {
+	padding: 20px 0 0 10px;
+}
