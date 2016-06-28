@@ -27,7 +27,7 @@ body {
 	color: white;
 }
 
-.menu-field1{
+.menu-field1, .menu-field3{
 	padding: 0px 50px;
 	display: inline-block;
 }
@@ -75,15 +75,20 @@ footer{
 }
 
 #copyright {
-	margin: 0px 0px 0px 150px;
+	margin-left: 105px;
+	padding-right: 20px;
+	
 }
 
-#product {
+/*Затемнение элементов главного меню при наведении курсора*/
+.menu-field1:hover {
 	background-color: #333333;
 	border-right: 1px solid #999999;
 	border-left: 1px solid #999999;
 }
 
-#fone {
+/*Затемнение элементов бокового меню при наведении курсора*/
+.menu-field2:hover {
 	background-color: #f9f9f9;
 }
+
