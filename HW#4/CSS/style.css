@@ -5,7 +5,6 @@ body {
 }
 
 .container {
-	margin-left: 150px;
 	width: 1000px;
 	margin: 0 auto;
     -webkit-box-shadow: 0px 3px 9px 4px rgba(0,0,0,0.75);
@@ -14,8 +13,11 @@ body {
 }
 
 header {
-	width: 1304px;
+	width: 1000px;
 	margin: 0 auto;
+	    -webkit-box-shadow: 0px 3px 9px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 9px 4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 9px 4px rgba(0,0,0,0.75);
 }
 
 /*Выпадающее меню*/
@@ -39,7 +41,7 @@ ul.menu > li {
 ul.menu > li > a {
     display: block;
     padding: 10px;
-	width: 122.7px;
+	width: 122.85px;
     color: white;
     background-color: #333333;
     text-decoration: none;
@@ -52,10 +54,10 @@ ul.submenu > li > a:hover{
 ul.submenu {
     display: none;
     position: absolute;
-	z-index: 100;
     top: 30px;
     left: 0;
     background-color: white;
+	box-shadow: 2px 5px 5px;
 }
 ul.submenu > li {
     display: block;
@@ -75,8 +77,9 @@ ul.menu > li:hover > ul.submenu {
 
 /*Три колонки*/
 .fon {
-	width: 1000px; /* ширина трех блоков */
-	background: url(../IMG/bgfon.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
+	width: 1000px;
+	min-height: 450px;
+	background: url(../IMG/bgfon.png) repeat-y;
 	float: left;
 	line-height: normal;
 }
@@ -91,6 +94,12 @@ ul.menu > li:hover > ul.submenu {
 .centerColumn {
 	width: 580px;
 	float: left;
+}
+
+.heading {
+	text-align: center;
+	padding-bottom: 5px;
+	font: 20px Arial;
 }
 
 footer {
